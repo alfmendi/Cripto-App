@@ -1,0 +1,68 @@
+$background: #ebf5fc;
+
+$yellow: #f9b446;
+$pink: #ea2f98;
+
+$light-blue: #00cdfc;
+$dark-blue: #007fe8;
+
+.navbar__contenedor {
+  background: transparent !important;
+  color: black;
+  height: 80px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.navbar__toolbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.navbar__empresa {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  text-decoration: none;
+}
+
+.navbar__logo {
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  background: linear-gradient(to bottom left, $dark-blue 15%, $light-blue);
+  position: relative;
+
+  &::before {
+    content: "";
+    position: absolute;
+    bottom: 10px;
+    left: 10px;
+    width: 40px;
+    height: 40px;
+    background: linear-gradient(
+      to bottom left,
+      rgba(249, 180, 70, 1) 15%,
+      rgba(234, 47, 152, 0.8)
+    );
+    border-radius: 20px;
+    border: 6px solid $background;
+  }
+}
+
+.navbar__nombre {
+  margin-left: 1rem !important;
+  font-family: "Montserrat" !important;
+  font-weight: 900 !important;
+  cursor: pointer;
+  background-image: linear-gradient(
+    to bottom left,
+    $dark-blue 15%,
+    $light-blue
+  );
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
+  -moz-text-fill-color: transparent;
+}

@@ -1,0 +1,26 @@
+.tablaMonedas__heading {
+  margin: 2rem !important;
+  font-weight: 900 !important;
+  font-family: "Montserrat" !important;
+  color: #3f51b5;
+
+  @media screen and (max-width: "768px") {
+    margin: 1.5rem !important;
+    font-size: 1.8rem !important;
+  }
+
+  @media screen and (max-width: "480px") {
+    margin: 1rem 0 !important;
+    font-size: 1.2rem !important;
+  }
+}
+
+.tablaMonedas__fila {
+  background-color: #fff;
+  cursor: pointer;
+  transition: 0.2s ease-in-out;
+
+  &:hover {
+    background-color: #eee;
+  }
+}
