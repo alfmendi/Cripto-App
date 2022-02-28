@@ -22,37 +22,11 @@
     font-family: "poppins";
     font-size: 2rem;
     font-weight: 900;
-    animation-name: texto;
-    animation-duration: 2s;
-    animation-direction: alternate;
-    animation-iteration-count: infinite;
-  }
-
-  @keyframes texto {
-    from {
-    }
-
-    to {
-      font-size: 1.8rem;
-      -webkit-text-stroke: 1px white;
-      -webkit-text-fill-color: transparent;
-    }
   }
 
   @media screen and(max-width:"768px") {
     p {
       font-size: 1.5rem;
-    }
-
-    @keyframes texto {
-      from {
-      }
-
-      to {
-        font-size: 1.3rem;
-        -webkit-text-stroke: 1px white;
-        -webkit-text-fill-color: transparent;
-      }
     }
   }
 
@@ -60,14 +34,6 @@
     p {
       text-align: center;
       font-size: 1rem;
-    }
-
-    @keyframes texto {
-      from {
-      }
-
-      to {
-      }
     }
   }
 }
