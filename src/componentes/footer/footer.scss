@@ -1,0 +1,13 @@
+.footer__contenedor {
+  font-weight: 900;
+  font-size: 1rem;
+  text-align: center;
+  padding: 1rem;
+  letter-spacing: 1.5px;
+
+  @media screen and(max-width:"480px") {
+    padding: 1rem 0rem;
+    letter-spacing: 1px;
+    font-size: 0.85rem;
+  }
+}
